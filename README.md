@@ -15,19 +15,19 @@ Fully compatible with IRSSI client.
 Download the repository
 ```bash
 git clone https://github.com/ddordain/ft_irc.git 
-`
+```
 
 Go in the repo
 ```bash
 cd ft_irc
-`
+```
 
 Compile the files
 ```bash
 Make
-`
+```
 
 Run the server
 ```bash
-./ft_irc <IP> <port>
-`
+./ft_irc <port> <password>
+```
