@@ -17,7 +17,7 @@ Download the repository
 git clone https://github.com/ddordain/ft_irc.git 
 ```
 
-Go in the repo
+Navigate into the repository
 ```bash
 cd ft_irc
 ```
@@ -31,3 +31,15 @@ Run the server
 ```bash
 ./ft_irc <port> <password>
 ```
+
+
+In a new terminal, you can launch IRSSI. You can also launch the script called irssi in the repo to generate two terminals, with gg and dd as name chosen, assuming the password you set earlier for the server is "pw".
+
+With irssi, you can connect to the :with with
+```bash
+/connect localhost <port> <pw> <nickname>
+```
+
+Among all the available command, the server implements AWAY, DIE, INVITE, JOIN, KICK, KILL, MODE, MOTD, NAMES, NICK, NOTICE, OPER, PART, PASS, PING, PRIVMSG, QUIT, TOPIC, USER, WHOIS.
+
+For more information on these commands, refer to the IRC protocol documentation.
