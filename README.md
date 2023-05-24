@@ -35,7 +35,7 @@ Run the server
 
 In a new terminal, you can launch IRSSI. You can also launch the script called irssi in the repo to generate two terminals, with gg and dd as name chosen, assuming the password you set earlier for the server is "pw".
 
-With irssi, you can connect to the :with with
+With irssi, you can connect to the server with:
 ```bash
 /connect localhost <port> <pw> <nickname>
 ```
